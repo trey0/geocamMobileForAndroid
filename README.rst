@@ -1,62 +1,63 @@
 GeoCam Mobile for Android
 =========================
 
-Important
----------
-The main/master repo for this project is located in the geocam_ organization's 
-github account.  If you are not there, you are probably on an unofficial fork.
-Please go here: https://github.com/geocam/geocamMobileForAndroid
+The GeoCam Project helps disaster responders get information faster by
+sharing maps, photos, and other data using their mobile devices.  The
+GeoCam team is part of the `NASA Ames Intelligent Robotics Group`_, and the
+project is funded by Google.  To best serve the wide range of public
+safety agencies, NGOs, and citizen responders, GeoCam software is
+released open source and interoperates using open standards.
 
-About
------
-GeoCam Mobile for Android is, unsurprisingly, the Android portion of the GeoCam
-Project.  Currently there only exists this Android-based mobile software to 
-support the GeoCam Project.
+.. _NASA Ames Intelligent Robotics Group: http://ti.arc.nasa.gov/tech/asr/intelligent-robotics/
 
-This software is, essentially, an application to upload geo-tagged, oriented
-photos to a server in hopes to aid in disaster management.  It also contains a
-GPS track recorder and periodic live position uploading.
+GeoCam Share, our software platform, currently includes the following
+apps:
 
-See http://geocamshare.org for more details on the GeoCam project.
+ * GeoCam Lens: Share photos taken on your cell phone, tagged with
+   position and which way the camera was pointed. Add notes, select an
+   icon to appear in the map, and queue the photo for automatic upload
+   when a data network becomes available.  (Web app and native app for
+   Android mobile devices.)
 
-See the docs_ directory for more information about this code.
+ * GeoCam Track: View live position of your team members as reported
+   by the GPS in their mobile devices.  (Web app and native app for
+   Android mobile devices.)
 
-The main/master repo for this project is located in the geocam_ organization's 
-github account.
+This ``geocamMobileForAndroid`` repository holds the native Android app
+components of the GeoCam Share app collection.  The web app components
+are in a separate repository called ``geocamShare``.  To see
+the master copy of all our repositories, visit http://github.com/geocam
+.
 
-.. _docs: https://github.com/geocam/geocamMobileForAndroid/tree/master/docs
-.. _geocam: http://github.com/geocam/
+For more information about ``geocamMobileForAndroid``, see:
 
-Contributing
-------------
-You may contribute in a multitude of ways:
+ * `Documentation`_ on GeoCam Mobile installation, architecture, and protocols
 
-1. Report bugs to us on the `bug tracker`_.
-2. Fork_ this project and fix the bugs you find.  Send us a Pull Request.
+ * `How you can contribute`_
 
-If your contribution is significant, you may be asked to sign a contributor 
-agreement, either as an individual_ or as a corporation_.
+ * Our software is released under the `NASA Open Source Agreement`_, an OSI-approved license
 
-.. _`bug tracker`: https://github.com/geocam/geocamMobileForAndroid/issues
-.. _Fork: http://help.github.com/forking/
-.. _individual: http://ti.arc.nasa.gov/m/project/nasa-vision-workbench/VW-CLA-Individual.pdf
-.. _corporation: http://ti.arc.nasa.gov/m/project/nasa-vision-workbench/VW-CLA-Corp.pdf
+.. _Documentation: http://github.com/geocam/geocamMobileForAndroid/tree/master/docs/README.rst
 
-Contacting
-----------
-For suggestions, questions, complaints, comments or praise, please contact 
-`Ted Morse`_, `Eric Park`_ or `Trey Smith`_.
+.. _How you can contribute: http://github.com/geocam/geocamShare/tree/master/docs/contributing.rst
 
-.. _`Ted Morse`: http://github.com/ekpneo/
-.. _`Eric Park`: http://github.com/jeztek/
-.. _`Trey Smith`: http://github.com/trey0/
+.. _NASA Open Source Agreement: http://github.com/geocam/geocamMobileForAndroid/tree/master/COPYING
 
-License
--------
-This software is released under the NOSA License.  Please see COPYING for the
-full text of the license.
+For more information about the GeoCam Project:
 
-This software alse uses a utility Base64 library that is licensed under the
-LGPL.  We claim no authorship to this code, nor are we affiliated with the
-original author(s).
+ * `Watch our intro video`_
+
+ * `Check our blog for updates`_
+
+ * `Visit an interactive demo version of GeoCam Share`_
+
+ * `Ask a question on the geocam-questions group`_
+
+.. _Watch our intro video: http://vimeo.com/17019251
+
+.. _Check our blog for updates: http://disastercam.blogspot.com/
+
+.. _Visit an interactive demo version of GeoCam Share: http://geocamshare.org/demo/share/
+
+.. _Ask a question on the geocam-questions group: http://groups.google.com/group/geocam-questions
 
